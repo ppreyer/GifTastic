@@ -1,0 +1,19 @@
+* {
+  
+}
+
+body {
+  background-image: url('../../assets/images/concrete-texture.png');
+}
+#game {
+  margin: 0 5px 0 8px;
+  height: 100%;
+}
+
+#buttonSection {
+  margin: 10px 0 20px 10px;
+}
+
+#mood-input {
+  width: 100%;
+}
