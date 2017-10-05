@@ -17,3 +17,7 @@ body {
 #mood-input {
   width: 100%;
 }
+
+.control-label {
+  width : 100%;
+}
