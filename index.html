@@ -8,7 +8,7 @@
   <title>Giphy All Day</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous"><link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" rel="stylesheet" integrity="sha384-Li5uVfY2bSkD3WQyiHX8tJd0aMF91rMrQP5aAewFkHkVSTT2TmD2PehZeMmm7aiL" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
@@ -16,30 +16,38 @@
   </script>
 </head>
 
+<!-- Content Section -->
 <body>
+<!-- Game Content -->
   <div id='game'>
+  <!-- Bootstrap Grid -->
     <div class='row'>
       <div class='col-md-12'>
+      <!-- Render Mood Buttons Section -->
         <div id='buttonSection'>
         </div>
       </div>
     </div>
+    <!-- Bootstrap Grid -->
     <div class='row'>
       <div class='col-md-9'>
+      <!-- Render Gif Images Section -->
         <div id='gifImages'>
         </div>
       </div>
       <div class='col-md-3'>
+        <!-- Search Bar -->
         <div class="form-group">
           <label class="control-label">Mood Search</label>
           <div class="input-group">
           <input type="text" class="form-control" id='mood-input'>
           <span class="input-group-btn">
-        <button class="btn btn-default" id='add-mood' type="button">Search</button>
+        <button class="btn btn-primary" id='add-mood' type="button">Search</button>
         </span>
         </div>
       </div>
     </div>
   </div>
+</div>
 </body>
 </html>
