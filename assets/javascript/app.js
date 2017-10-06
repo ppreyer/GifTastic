@@ -55,7 +55,7 @@ $(document).on('click','.mood-button', function(){
   // Assign mood name to search term to plug into API query
   var moodSearchTerm = $(this).attr('data-name'); 
   // Declare API query URL
-  var queryUrl = 'http://api.giphy.com/v1/gifs/search?q=' + moodSearchTerm + '&api_key=c8UVbAGIEcaESZJ6u8wKS7DLHbBnKc8F&limit=10';
+  var queryUrl = 'https://api.giphy.com/v1/gifs/search?q=' + moodSearchTerm + '&api_key=c8UVbAGIEcaESZJ6u8wKS7DLHbBnKc8F&limit=10';
 
 // Run ajax function...
 $.ajax({
