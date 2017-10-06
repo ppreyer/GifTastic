@@ -140,7 +140,7 @@ $(document).on('click', '#add-mood', function(){
     return;
     // Else....
   } else {
-    // Push search term into the global mood array
+    // Push search term into the global mood array 
       moodArray.push(moodSearchValue);
       console.log(moodArray)
       // Display the correct mood button
