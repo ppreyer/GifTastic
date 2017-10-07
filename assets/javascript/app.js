@@ -152,8 +152,9 @@ $(document).on('click', '#add-mood', function(){
     }
 });
 
+// When the DOM loads...
 $(document).ready(function() {
   console.log("DOCUMENT READY");
-
+  // Invoke the function to display the buttons on the page
   displayMoodButtons();
 });
